@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+}
+.up{
+    width: 100%;
+    height: 80vh;
+    background:linear-gradient(black,white);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    height: 15rem;
+    width: 15rem;
+    border: 1px solid black;
+    /* background-image: url('https://www.indiansuperleague.com/static-assets/images/club/1499.png'); */
+    background-repeat: no-repeat;
+    background-size: 100% ;
+}
+.team-title{
+    position: relative;
+    top: -16px;
+    display: flex;
+    justify-content: center;
+}
